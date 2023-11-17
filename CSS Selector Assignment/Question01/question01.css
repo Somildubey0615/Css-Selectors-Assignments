@@ -1,0 +1,33 @@
+ ul li a {
+    color: red;
+}
+nav > h2{
+background-color: blueviolet;
+color: aliceblue
+}
+ div+p{
+    color: red;
+ }
+
+a[href]{
+    text-decoration: none;
+    color: red;
+}
+a[class=active]{
+     color: rgb(241, 246, 245);
+    text-decoration: underline;
+}
+a[target="_self"]{
+    background-color: rgb(50, 50, 199);
+}
+p:last-child::after{
+    content: "...";
+}
+li::marker{
+    color: rgb(13, 80, 30);
+}
+p:nth-child(even)::first-letter{
+    color: red;
+    font-size: 30px;
+    
+}
